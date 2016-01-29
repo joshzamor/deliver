@@ -28,6 +28,8 @@ This template is meant to be a starting point for developing new a new OpenLMIS 
   }
   ```
 5. If your module needs to be packaged and deployed in the WAR (which is likely):
+  
   a. configure your package, dependancies, and beans in the modules applicationContext `src/main/resources/applicationContext-templateModule.xml`.  And then rename this file to the module's name, e.g. `applicationContext-deliver.xml`
+  
   b. add your module as a dependancy to openlmis-web module: TODO:  stepify this or fix it with DI
 6. Add your project to your git-repo's local manifest file.
