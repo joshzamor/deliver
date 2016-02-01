@@ -3,7 +3,7 @@ This template is meant to be a starting point for developing new a new OpenLMIS 
 
 ## Quick Start
 1. Fork/clone this repository from GitHub: [https://github.com/OpenLMIS/module-template.git](https://github.com/OpenLMIS/module-template.git)
-2. Rename this repository/directory to that of your liking.  A good starting point will be the root package-name that this module will include. e.g. `org.openlmis.deliver` for a module/repository/directory name of `deliver`
+2. Rename the new fork of the repository to that of your new module.  A good starting point will be the root package-name that this module will include. e.g. `org.openlmis.deliver` for a module/repository/directory name of `deliver`
 3. Pull this module into OpenLMIS sub-directory `modules` using git-repo.  See our 
 [default manifest repository](https://github.com/OpenLMIS/openlmis-repo) on how.
 4. Write your module's code in the `src` directory.  e.g:
